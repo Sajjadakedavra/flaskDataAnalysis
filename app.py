@@ -15,7 +15,7 @@ app.secret_key = 'your secret key'
  
 app.config['MYSQL_HOST'] = 'localhost'
 app.config['MYSQL_USER'] = 'root'
-app.config['MYSQL_PASSWORD'] = 'pb42'
+app.config['MYSQL_PASSWORD'] = 'hassan13'
 app.config['MYSQL_DB'] = 'flaskdb'
  
 mysql = MySQL(app)
@@ -324,7 +324,7 @@ def logout():
 
 if __name__ == "__main__":
     
-    ob = MyDatabase('mysql', 'root', 'pb42', 'flaskdb')
+    ob = MyDatabase('mysql', 'root', 'hassan13', 'flaskdb')
     ob.create_db_tables()
     print('running...')
     app.run(debug=True)
