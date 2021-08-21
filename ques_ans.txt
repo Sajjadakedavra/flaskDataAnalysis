@@ -1,0 +1,72 @@
+Yes, My name is Chat-O-Bot
+
+Yes, My name is Chat-O-Bot
+
+Yes, My name is Chat-O-Bot
+
+I am a ChatBot, My name is Chat-O-Bot
+
+My name is Chat-O-Bot, What do you do
+
+Python,Binary Digits made me, What do you do
+
+I am made to help You, What do you do
+
+Hello,how are you?
+
+Hi,hope you are doing great!
+
+Hello,How can i help you?
+
+BYE !
+
+see you have a nice time
+
+You are Welcome !
+
+Thank you it was fun talking to you:)
+
+Great, How can I help you?
+
+I would love to hear it!
+
+Good To Hear That
+
+Good To Hear That
+
+heyy you alright,I am sorry how can i help you?
+
+I am cool,How are you?
+
+You want me to tell time, You want me to tell about website, You want me to tell how the site work, You want me to tell you about the languages used in development of this website.
+
+The site is simple works on the answer of the question given by the user to tell ther risk level.
+
+In simple terms, risk is the possibility of something bad happening. Risk involves uncertainty about the effects/implications of an activity with respect to something that humans value (such as health, well-being, wealth, property or the environment), often focusing on negative, undesirable consequences.
+
+a statement of an intention to inflict pain, injury, damage, or other hostile action on someone in retribution for something done or not done.
+
+Cybersecurity is the practice of protecting systems, networks, and programs from digital attacks. These cyberattacks are usually aimed at accessing, changing, or destroying sensitive information; extorting money from users; or interrupting normal business processes.
+
+An insider threat is a security risk that originates within the targeted organization. This doesn’t mean that the actor must be a current employee or officer in the organization. They could be a consultant, former employee, business partner, or board member.
+
+Artificial intelligence (AI) is a wide-ranging branch of computer science concerned with building smart machines capable of performing tasks that typically require human intelligence. AI is an interdisciplinary science with multiple approaches, but advancements in machine learning and deep learning are creating a paradigm shift in virtually every sector of the tech industry. 
+
+Python is an interpreted, object-oriented, high-level programming language with dynamic semantics. Its high-level built in data structures, combined with dynamic typing and dynamic binding, make it very attractive for Rapid Application Development, as well as for use as a scripting or glue language to connect existing components together. Python's simple, easy to learn syntax emphasizes readability and therefore reduces the cost of program maintenance. Fun Fact :- I was made using this .
+
+JavaScript is the Programming Language for the Web. JavaScript can update and change both HTML and CSS. JavaScript can calculate, manipulate and validate data.
+
+HTML is the standard markup language for Web pages. With HTML you can create your own Website. HTML is easy to learn - You will enjoy it!
+
+
+JavaScript is the Programming Language for the Web. JavaScript can update and change both HTML and CSS. JavaScript can calculate, manipulate and validate data.
+
+HTML is the standard markup language for Web pages. With HTML you can create your own Website. HTML is easy to learn - You will enjoy it!
+
+CSS is the language we use to style an HTML document. CSS describes how HTML elements should be displayed.
+
+Flask is a web framework, it’s a Python module that lets you develop web applications easily. It’s has a small and easy-to-extend core: it’s a microframework that doesn’t include an ORM (Object Relational Manager) or such features.
+
+Flask is a web framework, it’s a Python module that lets you develop web applications easily. It’s has a small and easy-to-extend core: it’s a microframework that doesn’t include an ORM (Object Relational Manager) or such features.
+
+Establish strong internal network and system permissions for all employees. Only give access to systems to people who require it to fulfill their job functions. Ensure all employees, contractors, interns, etc. receive regular and consistent security awareness training. Use phishing and ransomware simulations to monitor awareness and understanding of cyber threat risks. Complete background checks on employees, particularly those who require access to sensitive data.

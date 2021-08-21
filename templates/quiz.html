@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Quiz App</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='style.css')}}">
+</head>
+<body>
+    <form action="{{url_for('result')}}" method="POST">
+        <div class="quiz-box custom-box">
+            <div class="queston-number">
+            </div>
+            <div class="question-text">
+                <p>1.Do you change your password every month?</p>
+            </div>
+            <div class="option-container">
+                <select  name="mycheckbox"><option value="">--PLEASE CHOOSE AN OPTION--</option><option value="yes">YES</option>
+                    <option value="no">NO</option></select>
+            </div>
+
+        </div>
+        <div class="quiz-box custom-box">
+            <div class="queston-number">
+            </div>
+            <div class="question-text">
+                <p>2.Do you always update your system and software when prompted?</p>
+            </div>
+            <div class="option-container">
+                <select  name="mycheckbox"><option value="">--PLEASE CHOOSE AN OPTION--</option><option value="yes">YES</option>
+                    <option value="no">NO</option></select>
+            </div>
+
+        </div>
+        <div class="quiz-box custom-box">
+            <div class="queston-number">
+            </div>
+            <div class="question-text">
+                <p>3.Is cybersecurity, in your opinion, the greatest concern while sharing the files with people?</p>
+            </div>
+            <div class="option-container">
+                <select  name="mycheckbox"><option value="">--PLEASE CHOOSE AN OPTION--</option><option value="yes">YES</option>
+                    <option value="no">NO</option></select>
+            </div>
+
+        </div>
+        <div class="quiz-box custom-box">
+            <div class="queston-number">
+            </div>
+            <div class="question-text">
+                <p>4.Do you give someone your login information if they ask for it?</p>
+            </div>
+            <div class="option-container">
+                <select  name="mycheckbox"><option value="">--PLEASE CHOOSE AN OPTION--</option><option value="yes">YES</option>
+                    <option value="no">NO</option></select>
+            </div>
+
+        </div>
+        <div class="quiz-box custom-box">
+            <div class="queston-number">
+            </div>
+            <div class="question-text">
+                <p>5.When working from home, do you use a VPN?</p>
+            </div>
+            <div class="option-container">
+                <select  name="mycheckbox"><option value="">--PLEASE CHOOSE AN OPTION--</option><option value="yes">YES</option>
+                    <option value="no">NO</option></select>
+            </div>
+
+        </div>
+        <div class="quiz-box custom-box">
+            <div class="queston-number">
+            </div>
+            <div class="question-text">
+                <p>6.Have you ever disobeyed a rule in order to complete a task?</p>
+            </div>
+            <div class="option-container">
+                <select  name="mycheckbox"><option value="">--PLEASE CHOOSE AN OPTION--</option><option value="yes">YES</option>
+                    <option value="no">NO</option></select>
+            </div>
+
+        </div>
+        <div class="quiz-box custom-box">
+            <div class="queston-number">
+            </div>
+            <div class="question-text">
+                <p>7.Do you keep updates of cybersecurity policies regularly, when it is subjected to a change?</p>
+            </div>
+            <div class="option-container">
+                <select  name="mycheckbox"><option value="">--PLEASE CHOOSE AN OPTION--</option><option value="yes">YES</option>
+                    <option value="no">NO</option></select>
+            </div>
+
+        </div>
+        <div class="quiz-box custom-box">
+            <div class="queston-number">
+            </div>
+            <div class="question-text">
+                <p>8.Do you know who is in charge of your company's cybersecurity?</p>
+            </div>
+            <div class="option-container">
+                <select  name="mycheckbox"><option value="">--PLEASE CHOOSE AN OPTION--</option><option value="yes">YES</option>
+                    <option value="no">NO</option></select>
+            </div>
+
+        </div>
+        <div class="quiz-box custom-box">
+            <div class="queston-number">
+            </div>
+            <div class="question-text">
+                <p>9.Do you handle user-driven investigations such as scenarios, personas and user stories?</p>
+            </div>
+            <div class="option-container">
+                <select  name="mycheckbox"><option value="">--PLEASE CHOOSE AN OPTION--</option><option value="yes">YES</option>
+                    <option value="no">NO</option></select>
+            </div>
+
+        </div>
+        <div class="quiz-box custom-box">
+            <div class="queston-number">
+            </div>
+            <div class="question-text">
+                <p>10.Can you believe the appropriate tools exist to keep track of data and protect confidential information such as intellectual property from insider threats?</p>
+            </div>
+            <div class="option-container">
+                <select  name="mycheckbox"><option value="">--PLEASE CHOOSE AN OPTION--</option><option value="yes">YES</option>
+                    <option value="no">NO</option></select>
+            </div>
+
+        </div>
+        <div class="quiz-box custom-box">
+            <div class="queston-number">
+            </div>
+            <div class="question-text">
+                <p>11.Can social engineering techniques deceive the company's insiders and capture their identities?</p>
+            </div>
+            <div class="option-container">
+                <select  name="mycheckbox"><option value="">--PLEASE CHOOSE AN OPTION--</option><option value="yes">YES</option>
+                    <option value="no">NO</option></select>
+            </div>
+
+        </div>
+        <div class="quiz-box custom-box">
+            <div class="queston-number">
+            </div>
+            <div class="question-text">
+                <p>12.Do you keep track of risky user behaviour across all technological platforms, such as network, email, endpoints, removable media, internet, and cloud applications?</p>
+            </div>
+            <div class="option-container">
+                <select  name="mycheckbox"><option value="">--PLEASE CHOOSE AN OPTION--</option><option value="yes">YES</option>
+                    <option value="no">NO</option></select>
+            </div>
+
+        </div>
+        <div class="quiz-box custom-box">
+            <div class="queston-number">
+            </div>
+            <div class="question-text">
+                <p>13.Is there any chance for a dissatisfied or resigning employee to gain access to a colleague's login credentials?</p>
+            </div>
+            <div class="option-container">
+                <select  name="mycheckbox"><option value="">--PLEASE CHOOSE AN OPTION--</option><option value="yes">YES</option>
+                    <option value="no">NO</option></select>
+            </div>
+
+        </div>
+        <div class="quiz-box custom-box">
+            <div class="queston-number">
+            </div>
+            <div class="question-text">
+                <p>14.Is there any possibility for trusted insiders to misuse their access to classified information or interrupt operations?</p>
+            </div>
+            <div class="option-container">
+                <select  name="mycheckbox"><option value="">--PLEASE CHOOSE AN OPTION--</option><option value="yes">YES</option>
+                    <option value="no">NO</option></select>
+            </div>
+
+        </div>
+        <div class="quiz-box custom-box">
+            <div class="queston-number">
+            </div>
+            <div class="question-text">
+                <p>15.Can insider gain unauthorised access to business data using rootkits or other advanced hacker tools?</p>
+            </div>
+            <div class="option-container">
+                <select  name="mycheckbox"><option value="">--PLEASE CHOOSE AN OPTION--</option><option value="yes">YES</option>
+                    <option value="no">NO</option></select>
+            </div>
+
+        </div>
+        <div class="quiz-box custom-box">
+            <div class="queston-number">
+            </div>
+            <div class="question-text">
+                <p>16.Do you have insider vulnerability knowledge in all of your employees' security training?</p>
+            </div>
+            <div class="option-container">
+                <select  name="mycheckbox"><option value="">--PLEASE CHOOSE AN OPTION--</option><option value="yes">YES</option>
+                    <option value="no">NO</option></select>
+            </div>
+        </div>
+        <div class="quiz-box custom-box">
+            <div class="queston-number">
+            </div>
+            <div class="question-text">
+                <p>17.Do you have a programme with defined metrics in place to counteract insider threats?</p>
+            </div>
+            <div class="option-container">
+                <select  name="mycheckbox"><option value="">--PLEASE CHOOSE AN OPTION--</option><option value="yes">YES</option>
+                    <option value="no">NO</option></select>
+            </div>
+
+        </div>
+        <div class="quiz-box custom-box">
+            <div class="queston-number">
+            </div>
+            <div class="question-text">
+                <p>18.Is it possible for an insider to unintentionally become a cybercriminal?</p>
+            </div>
+            <div class="option-container">
+                <select  name="mycheckbox"><option value="">--PLEASE CHOOSE AN OPTION--</option><option value="yes">YES</option>
+                    <option value="no">NO</option></select>
+            </div>
+
+        </div>
+        <div class="quiz-box custom-box">
+            <div class="queston-number">
+            </div>
+            <div class="question-text">
+                <p>19.Do you monitor sensitive data and files interactions by users to identify insider attacks?</p>
+            </div>
+            <div class="option-container">
+                <select  name="mycheckbox"><option value="">--PLEASE CHOOSE AN OPTION--</option><option value="yes">YES</option>
+                    <option value="no">NO</option></select>
+            </div>
+
+        </div>
+        <div class="quiz-box custom-box">
+            <div class="queston-number">
+            </div>
+            <div class="question-text">
+                <p>20.Do you keep track of any insider threats and report on them?(accidental /negligent ,compromised, malicious users)?</p>
+            </div>
+            <div class="option-container">
+                <select  name="mycheckbox"><option value="">--PLEASE CHOOSE AN OPTION--</option><option value="yes">YES</option>
+                    <option value="no">NO</option></select>
+            </div>
+
+        </div>
+        <div class="quiz-box custom-box">
+            <div class="queston-number">
+            </div>
+            <div class="question-text">
+                <p>
+                    21.When using your systems, do you keep track of and control contractors, suppliers, and other third-party vendors?
+                </p>
+            </div>
+            <div class="option-container">
+                <select  name="mycheckbox"><option value="">--PLEASE CHOOSE AN OPTION--</option><option value="yes">YES</option>
+                    <option value="no">NO</option></select>
+            </div>
+
+        </div>
+
+
+        <div class="quiz-box custom-box">
+            <div class="queston-number">
+            </div>
+            <div class="question-text">
+                <p>22.Are there any insiders, such as current and former employees and partners, who are aware of backdoors into your system?</p>
+            </div>
+            <div class="option-container">
+                <select  name="mycheckbox"><option value="">--PLEASE CHOOSE AN OPTION--</option><option value="yes">YES</option>
+                    <option value="no">NO</option></select>
+            </div>
+
+        </div>
+        <div class="quiz-box custom-box">
+            <div class="queston-number">
+            </div>
+            <div class="question-text">
+                <p>23.Do you have a system in place to classify the company's vital and sensitive assets on a regular basis?</p>
+            </div>
+            <div class="option-container">
+                <select  name="mycheckbox"><option value="">--PLEASE CHOOSE AN OPTION--</option><option value="yes">YES</option>
+                    <option value="no">NO</option></select>
+            </div>
+
+        </div>
+        <div class="quiz-box custom-box">
+            <div class="queston-number">
+            </div>
+            <div class="question-text">
+                <p>24.Is your insider danger programme compliant with your jurisdiction's legal authorities in terms of privacy, cultural, and civil rights?</p>
+            </div>
+            <div class="option-container">
+                <select  name="mycheckbox"><option value="">--PLEASE CHOOSE AN OPTION--</option><option value="yes">YES</option>
+                    <option value="no">NO</option></select>
+            </div>
+
+        </div>
+        <div class="quiz-box custom-box">
+            <div class="queston-number">
+            </div>
+            <div class="question-text">
+                <p>25.Is security awareness classes regularly conducted to mitigate possible future insider attacks?</p>
+            </div>
+            <div class="option-container">
+                <select  name="mycheckbox"><option value="">--PLEASE CHOOSE AN OPTION--</option><option value="yes">YES</option>
+                    <option value="no">NO</option></select>
+            </div>
+
+        
+
+        </div>
+        <div class="quiz-box custom-box">
+            <div class="next-page-btn">
+                <button class="butn" type="submit" value="submit">Submit</button>
+            </div>
+        </div>
+    </form>
+
+</body>
+</html>
+
+

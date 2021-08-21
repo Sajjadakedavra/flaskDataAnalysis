@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Quiz App</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='formmstyle.css')}}">
+   
+</head>
+<body>
+<form action="http://localhost:5000/index" method="POST">
+    <div class="quiz-box custom-box">
+        <div class="img"><img src="static/logo.jpg" width="200" height="75"></div>
+        <div class="theory"><h2>THEORY</h2></div>
+        <p>This study aims to identify insider threats based on your answers to the quizlet and generates risk score which help in mitigating future internal attacks. </p>
+        <p>Details of participation:A request to take online questionnaires sincerely, if having experience of violence would affect the need for cognitive closure.</p>
+        <p>In this study we will collect a small amount of information about you supporting individual duties.In addition to this there will be a short set of questions which covers your responsibilities in the industrial level to display riskmodel.</p>
+        <div class="consentstat"><h2>CONSENT STATEMENT</h2></div>
+        <p>1.You must also be 18 or over to participate.</p>
+        <p>2.I understand that my participation is voluntary</p>
+        <p>3.All data collected as part of the research will be anonymous and held in accordance with the UEA Research Data Management Policy. The data may be made available to the research community.</p>
+        <p>4.The data will only be used for the purposes of analysing people’s perceptions of privacy and trust. The data will be stored on-site for up to 365 days, before being archived.</p>
+        <div class="consent"><h2>CONSENT FORM</h2></div>
+        <form action="/login" method = "POST">
+            <p>Username <input type = "text" name = "name" required /></p>
+            <p>mailid <input type = "text" name = "mail" required/></p>
+            <p>Accept<input type="radio" name="accept" required/></p>
+            <p><input type = "submit" value = "Submit" /></p>
+         </form>
+        <p>You can also withdraw from the study at any time by mailing unique id generated to the researcher Rachana Ravikumar (Rachana.R@uea.ac.uk).</p>
+        <p class="last">If you have any queries or concerns at any point, you can contact the Supervisor Debbie Taylor (Debbie.Taylor@uea.ac.uk).</p>
+        
+        
+        
+    </div>
+</form>
+</body>
+</html>
