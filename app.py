@@ -29,6 +29,7 @@ def consent():
         return redirect(url_for('index'))
     
     #messages = request.args['messages']  # counterpart for url_for()
+    print('message is: ')
     print(request.args)
     return render_template("formm.html", )
 
