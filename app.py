@@ -27,11 +27,11 @@ mysql = MySQL(app)
 def consent():
     if 'loggedin' in session:
         return redirect(url_for('index'))
-    
-    #messages = request.args['messages']  # counterpart for url_for()
-    print('message is: ')
-    print(request.args)
-    return render_template("formm.html", )
+    messages=''
+    if request.args:
+        messages = json.loads(request.args['messages'])
+    #print(messages['msg'])
+    return render_template("formm.html", messages=messages)
 
 @app.route('/login', methods = ['POST', 'GET'])
 def login():

@@ -22,7 +22,7 @@
         <div class="consent"><h2>CONSENT FORM</h2></div>
         <form action="/login" method = "POST">
             {% if messages != '' %}
-            <p style="color: red;">{{messages}}</p>
+            <p style="color: red;">{{messages.get('msg')}}</p>
             {% endif %}
             <p>Username <input type = "text" name = "name" required /></p>
             <p>mailid <input type = "text" name = "email" required/></p>
